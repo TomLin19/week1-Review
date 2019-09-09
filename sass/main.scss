@@ -1,0 +1,26 @@
+@import "modules/_navbr";
+@import "_vars";
+
+// adding some css variables
+$global-bg-color: blue;
+$global-font-color:white;
+body {color: $main-color;
+       background-color: $global-bg-color;}
+
+h1,h2,h3{color: $heading-color;}
+
+.panel{
+    height: 88vh;
+}
+
+nav {
+  background-color: orange;
+
+  ul{
+      margin: 0;
+      padding: 0;
+
+      li{display: inline;}
+  }
+  a{text-decoration:none;}
+}
